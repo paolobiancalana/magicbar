@@ -1,0 +1,68 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+*.db
+*.db-journal
+
+# Virtual environments
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.so
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Editor & System files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*.bak
+
+# Exclude sensitive data
+.env
+*.env.local
+
+# Node specific (if using Node.js in your project)
+node_modules/
+npm-debug.log*
+
+# Ignore lock files (optional, depending on your project preference)
+Pipfile.lock
+poetry.lock
+package-lock.json
+yarn.lock
+
+# Ignore databases (except folder database)
+!database/
